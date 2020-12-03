@@ -1,0 +1,41 @@
+
+h2{
+    color: #fff;
+    width: 60vw;
+    font-family: fonte-jogo;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 10%;
+    margin-bottom: 3rem;
+}
+
+button{
+    font-family: fonte-jogo;
+    width: 60vw;
+    height: 8vh;
+    font-size: 1rem;
+    color: #fff;
+    background: orange;
+    padding: 0.5rem;
+    text-align: justify;
+    margin-left: 20%;
+    margin-bottom: 1rem;
+}       
+
+.escolhas:hover{
+    cursor: pointer;
+    transition: transform 50ms;
+    transform: scale(1.01);
+    transition: all ease 0.4s 0.0s;
+}
+
+.correto {
+    background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111) 100%);
+}
+
+.incorreto {
+    background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
+}
+
+

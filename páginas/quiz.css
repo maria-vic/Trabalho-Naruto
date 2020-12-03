@@ -1,0 +1,156 @@
+body{
+    background-color: black
+}
+
+h1{
+    font-family: fonte-jogo;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 8%;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);    
+    animation: título 6s ease infinite;
+    animation-delay: 0s;
+}
+
+@font-face{
+    font-family: fonte-jogo;
+    src: url(./joystix\ monospace.ttf);
+}
+
+@keyframes título{
+0% {
+    filter: invert(0);
+    color: #555;
+}
+
+50%{
+    color: #c9c9c9;
+}
+
+100% {
+    filter: invert(-360deg);
+    color: rgb(56, 56, 56);
+}
+}
+
+.jogar{
+    background: orange;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 20rem;
+    color: #fff;
+    font-size: 1.5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    font-family: fonte-jogo; 
+}
+
+.jogar:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 #ffbc40;
+    transition: transform 150ms;
+    transform: scale(1.02);
+    transition: all ease 0.5s 0.0s;
+}
+
+.pontu{
+    background: rgb(10, 10, 161);
+    margin: 0 auto;
+    padding: 2rem;
+    width: 20rem;
+    color: #fff;
+    font-size: 1.5rem;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    font-family: fonte-jogo; 
+}
+
+.pontu:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0  rgb(10, 10, 161);
+    transition: transform 150ms;
+    transform: scale(1.02);
+    transition: all ease 0.5s 0.0s;
+}
+
+.Home{
+    background: #008000;
+    margin: 0 auto;
+    padding: 2rem;
+    width: 20rem;
+    color: #fff;
+    font-size: 1.5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    font-family: fonte-jogo; 
+}
+
+.Home:hover{
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0  #008000;
+    transition: transform 150ms;
+    transform: scale(1.02);
+    transition: all ease 0.5s 0.0s;
+}
+
+.fa-crown{
+    margin-left: 1rem;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);    
+    animation-name: coroa;
+    animation-iteration-count: infinite;
+    animation-duration:3000ms;
+    animation-direction: normal;
+    animation-delay: 0s;
+}
+
+@keyframes coroa{
+    0%{
+        color: black;
+    }
+    50%{
+        color: rgb(46, 40, 40);
+        transform: rotateY(360deg);
+    }
+    100%{
+        color: rgb(0, 0, 0);
+    }
+}
+
+#load{
+    width: 14rem;
+    display: block;   
+    margin: 0 auto;
+    margin-top: 10rem;
+}

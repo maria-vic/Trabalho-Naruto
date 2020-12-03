@@ -1,0 +1,391 @@
+body{
+    background-color: #ff7a37;
+}
+
+header{
+    background-image: url(./imagens/Capa\ naruto\ barra\ preta.jpg);
+    background-repeat: no-repeat;
+    width: 1150px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    padding: 50px;
+    margin-top: 0px;
+}
+
+ nav ul{
+    text-align: justify;
+    margin-top: 19%;
+    margin-left: 20px;
+}
+
+nav ul li{
+    font-size: 20px;
+    font-family: naruto;
+    width: 19.7%;
+    height: 40px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+@font-face{
+    font-family: naruto;
+    src: url('páginas/njnaruto.ttf');
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: orange;
+    transition: all ease 1.2s 0.01s;
+} 
+
+nav ul li :hover{
+    color: #ff7a37;
+    font-size: 30px;
+    cursor: pointer;
+
+}
+
+main{
+    color: #000000DE;
+    background-color: #fff;
+    border: solid #fff 24px;
+    margin: 60px;
+    margin-bottom: 10px;
+    font-family: cursive ;
+    font-size: 1.3rem;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+h2{
+    margin: 20px;
+    text-align: left;
+    font-size: 24px;
+    margin-top: 70px;
+}
+
+p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.imagem{
+    width: 545.500px;
+    height: 363.438px;
+    display: block;   
+    margin: 0 auto;
+}
+
+#imagem2{
+    width: 340px;
+    height: 257px;
+    display: block;   
+    margin: 0 auto;
+}
+
+#imagem3{
+    width: 760px;
+    height: 440px;
+    display: block;   
+    margin: 0 auto;
+}
+
+.displayblock{
+    display: block;
+    margin: 0 auto;
+}
+
+.citacao{
+    box-shadow: inset 3px 0 0 0 rgba(41, 41, 41, 1);
+    padding: 23px;
+}
+
+#info{
+    box-shadow: inset 3px 0 0 0 #ff7a37 ;
+    padding: 23px;
+}
+
+span{
+    color: orange;
+    font-weight: bold;
+}
+
+#font-size{
+    font-size: 1.4rem;
+}
+
+#coment{
+    color: #555555;
+    text-align: center;
+    font-size: 1.18rem;
+    margin-top: 4px;
+}
+
+h3{
+    margin: 25px;
+    text-align: left;
+    font-size: 24px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+h4{
+    margin: 20px;
+    text-align: left;
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.ladoalado{
+    width: 480px;
+    height: 319px;
+    margin: 22px;
+}
+
+.corra{
+    font-family: naruto;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 3em;
+}
+
+.links{
+    color: #000000DE;
+    border-bottom: #ff7a37 1px solid;
+}
+
+.links:hover{
+    text-decoration: none;
+}
+
+.lista-bibli{
+    flex-direction: column;
+    list-style-type: cjk-ideographic;
+    color: #ff7a37;
+}
+
+.lista-bibli li a{
+    color: #ff7a37;
+}
+
+.lista-bibli li{
+    text-decoration: none;
+    margin-top: 25px;
+}
+
+.lista-bibli :hover{
+    text-decoration: none;
+    color: orange;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition: all ease 0.5s 0.0s;
+}
+
+.lista-bibli :visited{
+    color: #555555;
+}
+
+.lista-bibli :visited:hover{
+    color: orange;
+}
+
+#digite{
+    width: 25rem;
+    height: 2.3rem;
+    font-size: 1.3rem;
+    margin: 20px;
+    margin-right: 2px;
+    border: #555555;
+}
+
+#botão{
+    height: 2rem;
+    width: 2rem;
+    border:#fff;
+    background-color: #fff;
+}
+
+#botão:hover{
+    cursor: pointer;
+    transition: transform 150ms;
+    transform: scale(1.2);
+    transition: all ease 0.2s 0.0s;
+}
+
+#lupa{
+    height: 25px;
+    width: 25px;
+}
+
+.margin-top{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.pesquisa{
+    border-bottom: dotted 4px #ff7a37;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.video{
+    margin: 10px;
+}
+
+.video:hover{
+    cursor: pointer;
+    transition: transform 150ms;
+    transform: scale(1.2);
+    transition: all ease 0.2s 0.0s;
+}
+
+#load{
+    width: 14rem;
+    display: block;   
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+
+#lado{
+   width: 339px;
+   float: right;
+   margin-right: 35px;
+}
+
+.button{
+    margin: 30px;
+    margin-left: 20%;
+    width: 10rem;
+    height: 4rem;
+    padding: 1rem;
+    background: orange;
+    font-size: 1.6rem;
+    align-items: center;
+    border: groove 4px black;
+    border-radius: 4px;
+}
+
+.button:hover{
+    cursor: pointer;
+    transition: transform 150ms;
+    transform: scale(1.2);
+    transition: all ease 0.3s 0.0s;
+}
+
+h5{
+    font-size:2rem;
+    margin-bottom: 2px;
+    margin-left: 20px;
+}
+
+.fotinhas{
+    width: 218.66px;
+    height: 218.66px;
+    margin-bottom: 40px;
+   
+}
+
+.fotinhas:hover{
+    cursor: pointer;
+    transition: transform 150ms;
+    transform: scale(1.2);
+    transition: all ease 0.2s 0.0s;
+    border: orange 2px solid;
+    border-radius: 2px; 
+}
+
+.center{
+    color: #555555;
+    border-bottom: rgb(238, 173, 53) 2px solid;
+    display: inline-block;
+    margin-left: 38%;
+    text-decoration: none;
+}
+
+.center:hover{
+    color: #333333;
+    border-bottom: orange 3px solid;
+    text-decoration: none;
+}
+
+.textin{
+    margin: 40px;
+    font-size: 1.6rem;
+    color: black;
+    border-bottom: orange 3px solid;
+    display: inline;
+}
+
+.meuh22{
+    margin: 30px;
+    color: #333333;
+    text-align: justify;
+
+}
+
+.estilo{
+    color: #FFD700;
+    font-size: 2.5rem;
+    font-style: oblique;
+    animation-name: shopp;
+    animation-duration: 6s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: 1;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes shopp{
+    0%{
+        transform: translateX(0);
+    }
+
+    25%{
+        color: #f16565;
+    }
+
+    50%{
+        color: #FF7F50;
+        transform: translateX(-150px);
+    }
+
+    75%{
+        color: #FF4500;
+    }
+
+    100%{
+        color: #FFA500;
+        transform: translateX(150px);
+
+    }
+}
+
+.meuh6{
+    text-align: center;
+    color: #333333;
+    font-size: 1.5rem;
+}
+
+.fotos{
+    width: 386px;
+    height: 268px;
+    margin: 0 auto;
+    display: block;
+}
+
+footer{
+    background-image: url(./imagens/Capa\ Naruto\ jpg.jpg);
+    background-repeat: no-repeat;
+    width: 1250px;
+    height: 250px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
