@@ -393,6 +393,7 @@ h5{
 .linkinterno{
     border-bottom: none;
     text-decoration: none;
+    color: #555555;
 }
 
 .linkinterno:visited{
