@@ -6,7 +6,7 @@ h2{
     font-size: 2rem;
     text-align: left;
     margin-left: 20%;
-    margin-top: 10%;
+    margin-top: 2.5%;
     margin-bottom: 3rem;
 }
 
@@ -30,12 +30,72 @@ button{
     transition: all ease 0.4s 0.0s;
 }
 
-.correto {
-    background: linear-gradient(32deg, rgba(11, 223, 36) 0%, rgb(41, 232, 111) 100%);
+.questao{
+    font-size: 1.4rem;
+    margin-bottom: 0%;
+    display: inline-block;
+    margin-top: 1.5%;
+    margin-right: 3%;
 }
 
-.incorreto {
-    background: linear-gradient(32deg, rgba(230, 29, 29, 1) 0%, rgb(224, 11, 11, 1) 100%);
+.nar{
+    width: 70px;
+    height: 70px;
+    margin-left: 0%;
 }
 
+#pontos{
+    margin-top: 5%;
+    font-size: 2.5rem;
+    
+}
+
+.pontus{
+    background: rgb(10, 10, 161);
+    padding: 1rem;
+    width: 30rem;
+    height: 13rem;
+    margin: 0 auto;
+    display: block;
+    border: 5px #cccccc solid;
+    box-shadow: 0 0.4rem 1.4rem 0  rgb(10, 10, 161);
+    transition: transform 150ms;
+    transform: scale(1.02);
+    transition: all ease 0.5s 0.0s;
+}
+
+table{
+    font-family: fonte-jogo;
+    color: grey;
+    font-size: 1.7rem;
+    margin-left: 14rem;
+    margin-top: 5rem;
+    text-align: center;
+    border:none;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 grey,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);    
+}
+
+table th{
+    padding-left: .5em;
+    border:none;
+    font-size: 1.9rem;
+}
+
+table td{
+    padding:.5em 2em 1em 3em;
+    text-align: center;
+    align-items: center;
+    border:none
+}
 

@@ -2,6 +2,10 @@ body{
     background-color: #ff7a37;
 }
 
+#manual{
+    font-size: 3rem;
+}
+
 header{
     background-image: url(./imagens/Capa\ naruto\ barra\ preta.jpg);
     background-repeat: no-repeat;
@@ -74,6 +78,13 @@ p{
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: justify;
+}
+
+.imgss{
+    width: 450px;
+    height: 320px;
+    display: block;
+    margin: 0 auto;
 }
 
 .imagem{
@@ -377,6 +388,17 @@ h5{
     height: 268px;
     margin: 0 auto;
     display: block;
+}
+
+.linkinterno{
+    border-bottom: none;
+    text-decoration: none;
+}
+
+.linkinterno:visited{
+    border-bottom: none;
+    color: #333333;
+    text-decoration: none;
 }
 
 footer{

@@ -1,29 +1,9 @@
-function clicar(){
-    let inputUsuario = document.querySelector('#usuario');
-    let texto = document.createTextNode(`Seja bem vindo (a), ${inputUsuario.value}! Nessa aba você confere as curiosidades
-    e histórias por trás de Naruto! Mas preste bastante atenção, pois nem todas são verdadeiras! Ao final do texto, você 
-    poderá descobrir se é um verdadeiro detetive e descobriu a verdade por trás dos fatos, ou não. Se divirta e dattebane!`);
-    let h1 = document.querySelector('#meuh1');
-    h1.innerHTML = "";
-    h1.appendChild(texto);
-
-    let section = document.querySelector('#secao').value;
-    let p = document.querySelector('.p').value;
-
-    secao.value.innerHTML = "";
-    secao.appendChild(p);
-
-    var x = document.getElementById("minhadiv");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
-}
 
 function verdade1(){
     let botao1 = document.getElementById('verdade1');
     document.getElementById('verdade1').style.background = 'rgb(11, 223, 36)';
+    document.getElementById('verdade1').style.color = '#fff';
+
 
     let sec1 = document.getElementById('sec1');
     let p = document.createElement('p');
@@ -45,6 +25,7 @@ function verdade1(){
 function falso1(){
     let botao1 = document.getElementById('falso1');
     document.getElementById('falso1').style.background = 'rgb(224, 11, 11, 1)';
+    document.getElementById('falso1').style.color = '#fff';
 
     let sec1 = document.getElementById('sec1');
     let p = document.createElement('p');
@@ -66,6 +47,7 @@ function falso1(){
 function verdade2(){
     let botao2 = document.getElementById('verdade2');
     document.getElementById('verdade2').style.background = 'rgb(11, 223, 36)';
+    document.getElementById('verdade2').style.color = '#fff';
 
     let sec1 = document.getElementById('sec2');
     let p = document.createElement('p');
@@ -87,6 +69,7 @@ function verdade2(){
 function falso2(){
     let botao2 = document.getElementById('falso2');
     document.getElementById('falso2').style.background = 'rgb(224, 11, 11, 1)';
+    document.getElementById('falso2').style.color = '#fff';
 
     let sec1 = document.getElementById('sec2');
     let p = document.createElement('p');
@@ -108,6 +91,7 @@ function falso2(){
 function verdade3(){
     let botao3 = document.getElementById('verdade3');
     document.getElementById('verdade3').style.background = 'rgb(224, 11, 11, 1)';
+    document.getElementById('verdade3').style.color = '#fff';
 
     let sec1 = document.getElementById('sec3');
     let p = document.createElement('p');
@@ -130,6 +114,7 @@ function verdade3(){
 function falso3(){
     let botao3 = document.getElementById('falso3');
     document.getElementById('falso3').style.background = 'rgb(11, 223, 36)';
+    document.getElementById('falso3').style.color = '#fff';
 
     let sec1 = document.getElementById('sec3');
     let p = document.createElement('p');
@@ -151,6 +136,7 @@ function falso3(){
 function verdade4(){
     let botao4 = document.getElementById('verdade4');
     document.getElementById('verdade4').style.background = 'rgb(11, 223, 36)';
+    document.getElementById('verdade4').style.color = '#fff';
 
     let sec1 = document.getElementById('sec4');
     let p = document.createElement('p');
@@ -172,6 +158,7 @@ function verdade4(){
 function falso4(){
     let botao4 = document.getElementById('falso4');
     document.getElementById('falso4').style.background = 'rgb(224, 11, 11, 1)';
+    document.getElementById('falso4').style.color = '#fff';
 
     let sec1 = document.getElementById('sec4');
     let p = document.createElement('p');
@@ -193,6 +180,7 @@ function falso4(){
 function verdade5(){
     let botao5 = document.getElementById('verdade5');
     document.getElementById('verdade5').style.background = 'rgb(11, 223, 36)';
+    document.getElementById('verdade5').style.color = '#fff';
 
     let sec1 = document.getElementById('sec5');
     let p = document.createElement('p');
@@ -214,6 +202,7 @@ function verdade5(){
 function falso5(){
     let botao5 = document.getElementById('falso5');
     document.getElementById('falso5').style.background = 'rgb(224, 11, 11, 1)';
+    document.getElementById('falso5').style.color = '#fff';
 
     let sec1 = document.getElementById('sec5');
     let p = document.createElement('p');
@@ -235,6 +224,7 @@ function falso5(){
 function verdade6(){
     let botao6 = document.getElementById('verdade6');
     document.getElementById('verdade6').style.background = 'rgb(11, 223, 36)';
+    document.getElementById('verdade6').style.color = '#fff';
 
     let sec1 = document.getElementById('sec6');
     let p = document.createElement('p');
@@ -256,6 +246,7 @@ function verdade6(){
 function falso6(){
     let botao6 = document.getElementById('falso6');
     document.getElementById('falso6').style.background = 'rgb(224, 11, 11, 1)';
+    document.getElementById('falso6').style.color = '#fff';
 
     let sec1 = document.getElementById('sec6');
     let p = document.createElement('p');
@@ -277,6 +268,7 @@ function falso6(){
 function verdade7(){
     let botao7 = document.getElementById('verdade7');
     document.getElementById('verdade7').style.background = 'rgb(224, 11, 11, 1)';
+    document.getElementById('verdade7').style.color = '#fff';
 
     let sec1 = document.getElementById('sec7');
     let p = document.createElement('p');
@@ -298,6 +290,7 @@ function verdade7(){
 function falso7(){
     let botao7 = document.getElementById('falso7');
     document.getElementById('falso7').style.background = 'rgb(11, 223, 36)';
+    document.getElementById('falso7').style.color = '#fff';
 
     let sec1 = document.getElementById('sec7');
     let p = document.createElement('p');
@@ -319,6 +312,7 @@ function falso7(){
 function verdade8(){
     let botao8 = document.getElementById('verdade8');
     document.getElementById('verdade8').style.background = 'rgb(224, 11, 11, 1)';
+    document.getElementById('verdade8').style.color = '#fff';
 
     let sec1 = document.getElementById('sec8');
     let p = document.createElement('p');
@@ -340,6 +334,7 @@ function verdade8(){
 function falso8(){
     let botao8 = document.getElementById('falso8');
     document.getElementById('falso8').style.background = 'rgb(11, 223, 36)';
+    document.getElementById('falso8').style.color = '#fff';
 
     let sec1 = document.getElementById('sec8');
     let p = document.createElement('p');
@@ -356,4 +351,43 @@ function falso8(){
     p.appendChild(texto);
     sec1.appendChild(img1);
     botao8.disabled = true;
+}
+
+function clicar(){
+    let inputNum = document.querySelector('#num');
+    let texto = "";
+    
+    switch(inputNum.value){
+        case '5':
+            texto = "Um 5 é melhor do que nada, não é mesmo?";
+            break;
+        case '6':
+            texto = "Você acertou 75% das questões! Parabéns!";
+            break;
+        case '7':
+            texto = "Você acertou quase todas as questões! Mandou muito!";
+            break;
+        case '8':
+            texto = "Parabéns!!! Você acertou todas! Eu poderia até te pagar um lámen ≧◠‿◠≦✌";
+            break;
+        case '4':
+            texto = "Você acertou metade das questões...mas não desista! Naruto não aprendeu o Rasengan do dia pra noite!";
+            break;
+        case '1':
+            texto = "Olhe pelo lado bom: pelo menos você aprendeu alguma coisa, né?";
+            break;
+        case '2':
+            texto = "Olhe pelo lado bom: pelo menos você aprendeu alguma coisa, né?";
+            break;
+        case '3':
+            texto = "Olhe pelo lado bom: pelo menos você aprendeu alguma coisa, né?";
+            break;
+        default:
+            texto = "Você está tentando me driblar, Bakayarō? Insira um número VÁLIDO!";
+    }
+
+    let main = document.querySelector('main');
+    let h3 = document.querySelector('#meuh3');
+    h3.innerHTML = `${texto}`;
+    main.appendChild(h3);
 }

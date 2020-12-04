@@ -1,5 +1,13 @@
-#usuario{
-    width: 25rem;
+#alinha{
+    text-align: justify;
+    margin: 6rem;
+    font-size: 1.4rem;
+}
+
+#num{
+    margin-top: 3rem;
+    margin-left: 10rem;
+    width: 18rem;
     height: 3rem;
     font-size: 1.4rem;
     font-family: cursive;
@@ -8,7 +16,7 @@
     border-radius: 7px;
 }
 
-#usuario:active{
+#num:active{
     box-shadow: 0 0.4rem 1.4rem 0 #ffbc40;
     transition: transform 150ms;
     transform: scale(1.02);
@@ -17,6 +25,8 @@
 }
 
 #botaao{
+    margin-left: 1.5rem;
+    text-align: center;
     width: 4.2rem;
     font-weight: bolder;
     height: 3rem;
@@ -45,9 +55,11 @@
 
 .meup{
     text-align: justify;
-    margin: 40px;
+    margin: 6rem;
     font-size: 1.4rem;
     color: #333333;
+    margin-bottom: 4px;
+    margin-top: 6px;
 }
 
 .botaaao{
@@ -70,10 +82,6 @@
     animation-iteration-count: infinite;
 }
 
-/*section, p, button{
-    display: inherit;
-}*/
-
 @keyframes botaozin{
     0%{
         border: rgb(11, 223, 36) 5px solid;
@@ -94,9 +102,9 @@
 }
 
 .meusps{
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 40px;
+    margin: 6rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
     color: black;
     box-shadow: inset 3px 0 0 0 rgba(41, 41, 41, 1);
     padding: 23px;
@@ -109,5 +117,44 @@
     height: 327.078;
 }
 
+#meuh3{
+    font-size: 1.4rem;
+    color: #333333;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    margin-top: 4rem;
+}
 
+#anima{
+    text-align: center;
+    font-size: 1.8rem;
+    animation-name: animação;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    text-shadow: 0 1px 0 #ccc,
+    0 2px 0 #c9c9c9,
+    0 3px 0 #bbb,
+    0 4px 0 #b9b9b9,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);   
+}
 
+@keyframes animação{
+    0%{
+        color: orange;
+        transform: rotateY(360deg);
+
+    }
+    100%{
+        color:yellow;
+        transition: ease;
+        
+    }
+}
